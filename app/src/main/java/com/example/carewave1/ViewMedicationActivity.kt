@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 
-class View_Medication_Activity : AppCompatActivity() {
+class ViewMedicationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view_medication)

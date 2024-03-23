@@ -32,7 +32,7 @@ class EditMedicationActivity : AppCompatActivity() {
 
 
                     // Create an Intent to navigate to ViewMedicationActivity
-                    val intent = Intent(this, View_Medication_Activity::class.java).apply {
+                    val intent = Intent(this, ViewMedicationActivity::class.java).apply {
                         putExtra("medicineName", enteredMedicineName)
                         putExtra("dose", enteredDose)
                         putExtra("time", enteredTime)
